@@ -1,0 +1,16 @@
+{
+  "extends": "stylelint-config-standard",
+  "customSyntax": "postcss-syntax",
+  "rules": {
+    "declaration-colon-newline-after": "always-multi-line",
+    "selector-type-no-unknown": null,
+    "property-no-unknown": [
+        true,
+        {
+        "ignoreProperties": [
+             "content-visibility"
+          ]
+        }
+     ]
+  }
+}
